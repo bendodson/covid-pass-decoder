@@ -17,3 +17,5 @@ let isValid = cwt.isValid(using: DefaultDateService())
 ```
 
 The `CWT` contains all the information within the pass (i.e. issuing country, issued at date, expiration date, passholders name and date of birth) and there are convenience methods to determine if the pass is currently valid.
+
+**NOTE**: This project includes [SwiftCBOR](https://github.com/unrelentingtech/SwiftCBOR) as a dependency via Swift Package Manager.
